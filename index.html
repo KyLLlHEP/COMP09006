@@ -3,9 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Site Development</title>
+    <meta
+      name="description"
+      content=" The University of West of Scotland world ranking is 601-800 in the Times Higher Education"
+    />
+
+    <meta
+      name="“keywords”"
+      content="“study"
+      master
+      in
+      scotland,
+      best
+      university
+      in
+      paisley,
+      high
+      acceptance
+      rate
+      higher
+      education”
+    />
+
+    <base target="_blank" />
+    <title>UWS</title>
   </head>
-  <body>
-    <h1>Start week 1</h1>
+  <body bgcolor="green">
+    <h1>University of the West of Scotland</h1>
+    <table border="2" boardercolor="red">
+      <th>one</th>
+      <th>one</th>
+      <th>one</th>
+      <tr>
+        <td>First</td>
+        <td>Second</td>
+        <td>Third</td>
+      </tr>
+      <tr>
+        <td>First</td>
+        <td>Second</td>
+        <td>Third</td>
+      </tr>
+      <tr>
+        <td>First</td>
+        <td>Second</td>
+        <td>Third</td>
+      </tr>
+    </table>
+    <p>
+      <b>Iframes:</b>Inserting Iframes, Setting Height and With, & Using an
+      Inframes for a Link Targs
+    </p>
+    <iframe
+      src="https://www.teachucomp.com/"
+      frameborder="2"
+      height="10%"
+      width="50%"
+    ></iframe>
+    <iframe name="iframe" frameborder="0"></iframe>
+    <a href="https://www.teachucomp.com/" target="iframe"
+      >Hello is a link to be displayed in an inframe</a
+    >
+    <br />
+    <p><b>Forms:</b></p>
+    <br />
+    <form method="post" enctype="text/plain" action="?">
+      <fieldset>
+        <legend>Personal</legend>
+
+        <label for="firstname"> Name</label>
+        <input type="text" name="firstname" />
+        <br /><label for="feedback">Feedback</label> <br /><textarea
+          name="feedback"
+          rows="15"
+          cols="50"
+        ></textarea>
+        <br /><label for="purchase"> Have you purchase from us before</label>
+        <br /><input type="checkbox" name="purchase" value="Yes" />Yes
+        <br /><input type="checkbox" name="purchase" value="NO" />No
+        <br /><select name="list" size="1">
+          <option value="Business">Business</option>
+          <option value="Goverment">Goverment</option>
+          <option value="Individual">Individual</option>
+        </select>
+        <br /><label for="source">How did you hear about us?</label>
+        <br /><input type="radio" name="source" value="TV" />Tv <br /><input
+          type="radio"
+          name="source"
+          value="Internet"
+        />Internet <br /><input
+          type="radio"
+          name="source"
+          value="Friends"
+        />Friends <br /><input type="submit" value="submit" /> <br /><input
+          type="reset"
+          value="reset"
+        />
+      </fieldset>
+    </form>
+
+    <br />
+    <p><b>Video and Audio</b></p>
+    <video width="480" height="360" controls>
+      <source src="media/video.webm" type="video/webm" />
+      <source src="media/video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <br /><br />
   </body>
 </html>
