@@ -19,3 +19,14 @@ th:nth-child(4) {
   text-align: left;
   font-size: 24px;
 }
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+p {
+}
+.personal-form {
+  margin: 0 auto;
+  max-width: 60%;
+  text-align: left;
+}
