@@ -37,11 +37,83 @@
             <legend>Agreement</legend>
             <br />
             <p>Do you agree with the statement?</p>
-            <input type="checkbox" name="Yes" value="yes" />
+            <input type="checkbox" name="agreement" value="yes" />
             <label for="yes">Yes</label>
-            <input type="checkbox" name="No" value="no" />
+            <input type="checkbox" name="agreement" value="no" />
             <label for="no">No</label>
           </fieldset>
+          <br />
+          <fieldset>
+            <legend>Location</legend>
+            <br />
+            What city are you from?<br />
+            <select id="citys" name="citylist" form="">
+              <option value="Piasley">Piasley</option>
+              <option value="Glasgow">Glasgow</option>
+              <option value="Hamilton">Hamilton</option>
+              <option value="Botwell">Botwell</option>
+            </select>
+            <br />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Job Information</legend>
+            <br />
+            Select your job: <br />
+            <div>
+              <input
+                type="radio"
+                id="developer"
+                name="job"
+                value="developer"
+                checked
+              />
+              <label for="developer">Developer</label>
+            </div>
+
+            <div>
+              <input type="radio" id="designer" name="job" value="designer" />
+              <label for="designer">designer</label>
+            </div>
+
+            <div>
+              <input type="radio" id="nurse" name="job" value="nurse" />
+              <label for="nurse">Nurse</label>
+            </div>
+            <br />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Event Date</legend>
+            <br />
+            <label for="event"
+              >Select a date for your feedback submission:</label
+            >
+            <input
+              type="date"
+              id="start"
+              name="trip-start"
+              value="2024-09-22"
+              min="2024-09-22"
+              max="2025-1-30"
+            />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>File Upload</legend>
+            <label for="uppload"
+              >Upload your degree (Accepted formats: .jpg, .png, .pdf):</label
+            >
+            <input
+              type="file"
+              id="degree"
+              name="degree"
+              accept="image/png, image/jpeg, image/pdf"
+            />
+          </fieldset>
+          <br />
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
         </fieldset>
       </form>
     </div>
