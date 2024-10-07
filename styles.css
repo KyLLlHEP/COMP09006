@@ -1,156 +1,85 @@
-/* #title {font-size: 1cm;}*/
-/* Add sometching here p{ color: blue;}*/
-/*.present {
-  font-weight: 400;
-  font-style: italic;
-  text-decoration: underline;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
-  letter-spacing: 0cm;
-  line-height: 1cm;
-  margin-top: 1cm;
-  border: solid blue;
-}
-body {
-  background-color: aqua;
-  background-image: url();
-}*/
 main {
-  max-width: 1820px;
-}
-.wrapper {
-  width: 1280px;
+  width: 1440px;
   margin: 0 auto;
 }
-/* HEADER CSS*/
-header {
-  height: 80px;
-  background-color: gainsboro;
+.wraper {
+  width: 1220px;
 }
-nav {
+
+.header {
   width: inherit;
+  height: 60px;
+  background-color: #333333;
+}
+.header-list {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 20px;
-}
-a {
-  text-decoration: none;
-}
-.logo {
-  margin-top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
-}
-.logo-link:hover {
-  font-size: 26px;
-  color: gold;
-}
-.nav-items {
-  margin-top: 30px;
-  margin-right: 40px;
-  width: inherit;
-  display: flex;
-  gap: 40px;
-  justify-content: flex-start;
-}
-.list-item {
-  list-style: none;
-  font-size: 18px;
-}
-.list-item:hover {
-  font-size: 20px;
-}
-/*MAIN CSS SECTION*/
-.home {
-  margin-top: -20px;
-  width: inherit;
-  height: 800px;
-  background-image: url(./img/BG.jpg);
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.about__title {
-  font-size: 42px;
-  color: #5c62ec;
-  margin-top: 0px;
-  text-align: center;
-  padding-top: 20px;
-}
-.about__text {
-  text-align: center;
-  color: #fff;
-  font-size: 36px;
-}
-.btn {
-  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 160px;
-  height: 48px;
-  padding: 12px 28px;
-  border-radius: 5px;
-  background-color: #5c62ec;
-  text-decoration: none;
-  color: var(--white);
-  letter-spacing: 0.15px;
-  font-size: 16px;
-  font-weight: 500;
-  transition: opacity 0.2s ease-in;
+  gap: 20px;
 }
-.btn:hover {
-  opacity: 0.8;
+.list-item {
+  margin-top: 15px;
 }
-.btn:active {
-  position: relative;
-  top: 1px;
-}
-.about-git {
-  margin-left: 550px;
-}
-.projects {
-  margin-top: 40px;
-  width: inherit;
-  height: 350px;
-  display: flex;
-  justify-content: space-between;
-}
-.project-1 {
-  width: inherit;
-}
-.project-2 {
-  width: inherit;
-}
-.project-title {
-  text-align: center;
-  font-size: 32px;
-  color: #2134aa;
-}
-.project-describe {
-  margin-left: 20px;
+a {
+  font-family: "Times New Roman", Times, sans-serif;
   font-size: 24px;
-  font-weight: 600;
+  text-decoration: none;
   color: #fff;
 }
-.project-link {
-  width: 600px;
-  height: 200px;
+li {
+  list-style: none;
 }
-.bg-project-1 {
+.content-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
 }
-.project-img {
-  width: 600px;
-  height: 200px;
-  object-fit: fill;
+.side-menu {
+  width: 300px;
+  height: 600px;
+  background-color: #222222;
 }
-/*FOOTER*/
-footer {
-  margin-top: -90px;
-  width: inherit;
-  height: 120px;
-  background-color: gray;
+.side-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-content {
+  color: #323939;
+  font-family: Georgia, "Times New Roman", Times, sans-serif;
+}
+.conntent-tittle {
+  font-size: 36px;
+}
+.conntent-describe {
+  font-size: 24px;
+}
+.content-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+.content-box-tittle {
+  font-size: 24px;
+  font-weight: 800;
+}
+.box-1 {
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+}
+.box-2 {
+  width: 250px;
+  height: 250px;
+  font-size: 48px;
+}
+.box-1,
+.box-2 {
+  text-align: center;
+  color: #323939;
+  background-color: red;
+  border: 20px solid #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
