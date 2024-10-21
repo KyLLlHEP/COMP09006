@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript - Manipulate HTML</title>
+
+    </head>
+    <body>
+        <div>
+           <h3>Example 1: Sending Data to the html element</h3>
+
+            <p id="p1">  </p>
+
+          <script>
+
+          document.getElementById("p1").innerHTML = "Hi World from JavaScript";
+
+          </script>
+            <br>
+            <br>
+
+        <h3>Example 2: Making a button to change the paragraph</h3>
+
+        <p id="p2"> Click the button to change this paragraph   </p>
+
+         <input type="button" value="click here" onclick="btClick()" title="click now!">
+
+         <script>
+           
+           function btClick()
+           {
+
+            document.getElementById("p2").innerHTML = "You have just changed this paragraph.";
+           }
+
+         </script>
+
+
+       <br>
+        <br>
+          <h3>Example 3: Creating a customMessage with JavaScript</h3>
+
+
+          <p> First Name: <input type="text" id="firstName"> </p>
+          <input type="button" value="click here" onclick="customMessage()">
+
+
+          <p id="p3"></p>
+
+          <script>
+                  function customMessage()
+                       {
+
+                              document.getElementById("p3").innerHTML=" Hello " + document.getElementById("firstName"). value + " !";
+
+                             // window.alert(" Hello " + document.getElementById("firstName"). value);
+
+                         }
+          </script>
+        </div>
+    </body>
+</html>
