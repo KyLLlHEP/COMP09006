@@ -1,0 +1,20 @@
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.priority-low {
+    color: green;
+}
+.priority-medium {
+    color: orange;
+}
+.priority-high {
+    color: red;
+}
+
+#task-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    list-style-type: none;
+}
