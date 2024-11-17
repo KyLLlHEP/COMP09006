@@ -1,0 +1,8 @@
+body {
+    padding: 0;
+    background-color: #ffffff;
+}
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
