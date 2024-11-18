@@ -1,0 +1,53 @@
+.slider{
+    width: 1440px;
+    height: 488px;
+    background-color: var(--primary);
+    background-image:  url('../assets/images/bg-snow.png');
+}
+.slider-container{
+    width: 1276px;
+    height: 368px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.slider-header {
+    margin-top: 30px;
+    margin-left: 130px;
+    color: var(--static-white);
+    width: 426px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.slider-title {
+    display: block;
+    margin-top: 15px;
+    font-family: 'Allura', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+}
+
+.slider-subtitle {
+    display: block;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.52;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+.slider-row{
+    width: 1276px;
+    height: 200px;
+}
+
+
