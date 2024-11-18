@@ -1,0 +1,77 @@
+.wrapper{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    position: relative;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    /*background-color:#B8B8B8;*/
+    position: absolute;
+    animation: moveBox 9s infinite;
+
+}
+.hidden{
+    display: none;
+}
+.btn {
+    width: 100px;
+    height: 50px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+}
+h2 {
+    color:forestgreen;
+    text-align: center;
+    font-size: 46px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+thead{
+    background-color: rgb(77,170,85);
+}
+.odd-row {
+    background-color: #E4E4E2;
+}
+.odd-row:hover {
+    background-color: pink;
+}
+.even-row:hover {
+    background-color: pink;
+    /*background-color: #F4F3F3;*/
+}
+/*@keyframes moveBox {*/
+/*    0% {*/
+/*        top: 0;*/
+/*        left: 0;*/
+/*        !*background-color: #B8B8B8;*!*/
+/*    }*/
+/*    25% {*/
+/*        left: 400px;*/
+/*        top: 0px;*/
+/*        !*background-color: #4B7AE4;*!*/
+/*    }*/
+/*    50% {*/
+/*        left: 400px;*/
+/*        top: 400px;*/
+/*        !*background-color: indianred;*!*/
+/*    }*/
+/*    75%{*/
+/*        left: 0px;*/
+/*        top: 400px;*/
+/*        !*background-color: gold;*!*/
+/*    }*/
+/*    100% {*/
+/*        top: 0;*/
+/*        left: 0;*/
+/*        !*background-color: #B8B8B8;*!*/
+/*    }*/
+/*}*/
