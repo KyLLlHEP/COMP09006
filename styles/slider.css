@@ -1,6 +1,6 @@
 .slider{
     width: 1440px;
-    height: 100vh;
+    height: 488px;
     background-color: var(--primary);
     background-image:  url('../assets/images/bg-snow.png');
 }
