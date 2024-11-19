@@ -1,35 +1,98 @@
-.best-gifts{
-    width: 1440px;
-    height: 554px;
-    background-color: var(--primary);
-    background-image:  url('../assets/images/bg-snow.png');
+.best-gifts {
+  width: 1440px;
+  height: 554px;
+  background-color: var(--primary);
+  background-image: url("../assets/images/bg-snow.png");
 }
-.best-gifts-container{
-color: var(--static-white);
+.best-gifts-container {
+  color: var(--static-white);
 }
-.best-gifts-heading{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.best-gifts-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.best-gifts-tittle{
-    margin-top: 58px;
-    display: block;
-    font-family: 'Allura', cursive;
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: 0.05em;
+.best-gifts-tittle {
+  margin-top: 58px;
+  display: block;
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.05em;
 }
-.best-gifts-offers{
-    margin-top: 6px;
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 1.52;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
+.best-gifts-offers {
+  margin-top: 6px;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.52;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
 }
-.best-gifts-content{
+.best-gifts-content {
+  width: 1276px;
+  height: 342px;
+  display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-left: 80px;
+    margin-top: 25px;
 
+}
+.gift-card {
+  width: 310px;
+  height: 340px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+.card-image{
+    width: 310px;
+    height: 230px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: var(--content-background);
+}
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-description{
+  width: inherit;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: var(--static-white);
+}
+.gift-card-title{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: block;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.05em;
+
+}
+.gift-card-text{
+  margin-top: 9px;
+  margin-left: 21px;
+  display: block;
+  font-size: 16px;
+  line-height: 1.52;
+  letter-spacing: 0.08em;
+  color: var(--dark);
+}
+.work{
+  color: var(--tag-purple);
+}
+.health{
+  color: var(--tag-green);
+}
+.harmony{
+  color: var(--tag-pink);
 }

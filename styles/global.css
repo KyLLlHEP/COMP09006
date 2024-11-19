@@ -1,6 +1,7 @@
 body {
     padding: 0;
     background-color: #ffffff;
+    overflow: hidden;
 }
 .wrapper {
     width: 1440px;
