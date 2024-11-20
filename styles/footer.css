@@ -1,0 +1,34 @@
+.footer{
+    width: 1440px;
+    height: 496px;
+   background-color: var(--static-white);
+}
+.footer-container{
+    width: 1276px;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.footer-content{
+    width: inherit;
+    height: 204px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    gap: 8px;
+}
+.footer-contact,.footer-location,.footer-gmail{
+    width: 417px;
+    height: 204px;
+    background-color: var(--content-background);
+    border-radius: 20px;
+    border:1px solid var(--dark);
+}
+
+.footer-media{
+    width: inherit;
+    height: 112px;
+}
