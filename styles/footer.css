@@ -34,9 +34,7 @@
     width: inherit;
     height: 112px;
 }
-.footer-contact{
 
-}
 .contact-img{
     width: 80px;
     height: 80px;
@@ -55,4 +53,38 @@
     font-size: 16px;
     line-height: 1.52;
     letter-spacing: 0.08em;
+}
+.footer-media{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.socials-media{
+    margin-top: -115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.socials-media-icons{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright{
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.48;
+}
+.school-link{
+    margin-top: 15px;
+    font-family: 'Allura', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.05em;
 }
