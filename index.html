@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="icon" href="./assets/images/santa.ico" type="image/x-icon">
+
     <title>christmas-shop</title>
   </head>
   <body>
@@ -11,23 +13,25 @@
       <header>
         <div class="header-container">
           <div class="header-logo">
+            <a href="#hero" class="logo-link">
             <div class="logo-img">
               <img src="./assets/images/snowflake.svg" alt="Red snowflake" />
             </div>
+            </a>
             <span class="logo-text">the gifts</span>
           </div>
           <div class="header-nav">
             <ul class="nav-list">
-              <li class="nav-list-items"><a href="#">gifts</a></li>
-              <li class="nav-list-items"><a href="#">about</a></li>
+              <li class="nav-list-items"><a href="#gifts">gifts</a></li>
+              <li class="nav-list-items"><a href="#about">about</a></li>
               <li class="nav-list-items"><a href="#">best</a></li>
-              <li class="nav-list-items"><a href="#">contact</a></li>
+              <li class="nav-list-items"><a href="#contact">contact</a></li>
             </ul>
           </div>
         </div>
       </header>
       <main>
-        <section class="hero">
+        <section id="hero" class="hero">
           <div class="hero-container">
             <span class="hero-container-title">Merry Chrismas</span>
             <span class="hero-container-text"
@@ -37,7 +41,7 @@
             <div class="hero-subtitle">and Happy New Year</div>
           </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
           <div class="about-container">
             <div class="about-description">
               <div class="about-description-text">
@@ -103,7 +107,7 @@
             </div>
           </div>
         </section>
-        <section class="best-gifts">
+        <section id="gifts" class="best-gifts">
           <div class="best-gifts-container">
             <div class="best-gifts-heading">
               <span class="best-gifts-tittle">Best Gifts</span>
@@ -180,19 +184,19 @@
       <footer class="footer">
         <div class="footer-container">
           <div class="footer-content">
-            <div class="footer-contact">
+            <div id="contact" class="footer-contact">
               <div class="contact-img">
                 <img src="./assets/images/santa-claus.svg" alt="santa claus" />
               </div>
               <span class="contact-description" >+375 (29) 111-22-33</span>
-              <a class="contact-link" href="#">call us</a>
+              <a class="contact-link" href="tel:+375291112233">call us</a>
             </div>
             <div class="footer-location">
               <div class="contact-img">
                 <img src="./assets/images/christmas-tree.svg" alt="santa claus" />
               </div>
               <span class="contact-description" >magic forest</span>
-              <a class="contact-link" href="#">meet us</a>
+              <a class="contact-link" href="https://maps.app.goo.gl/cEBihNpUDZhYzPSbA" target="_blank" rel="noopener noreferrer">meet us</a>
             </div>
             </div>
             <div class="footer-gmail">
@@ -200,7 +204,7 @@
                 <img src="./assets/images/snake.svg" alt="christmas tree" />
               </div>
               <span class="contact-description" >gifts@magic.com</span>
-              <a class="contact-link" href="#">write us</a>
+              <a class="contact-link" href="mailto:gifts@magic.com">write us</a>
             </div>
             </div>
           <div class="footer-media">
@@ -219,7 +223,7 @@
                 </div>
               </div>
             <span class="copyright">© Copyright 2025, All Rights Reserved</span>
-            <span class="school-link"><a href="#">Made in Rolling Scopes School</a></span>
+            <span class="school-link"><a href="https://rs.school/" target="_blank">Made in Rolling Scopes School</a></span>
           </div>
       </footer>
     </div>
